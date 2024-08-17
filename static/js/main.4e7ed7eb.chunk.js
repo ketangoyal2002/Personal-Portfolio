@@ -3,24 +3,24 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+  background: rgba(0, 0, 0, 0.1);
   color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   z-index: 1000;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center items on desktop */
+  justify-content: center; 
 
   &:hover {
-    background: rgba(0, 0, 0, 0.1); /* Darken background on hover */
+    background: rgba(0, 0, 0, 0.1); 
   }
 
   .menu-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin-left: auto; /* Push toggle button to the right */
+    margin-left: auto; 
 
     .bar {
       width: 25px;
@@ -56,7 +56,7 @@
     ul {
       display: ${e=>e.isOpen?"block":"none"};
       position: absolute;
-      top: 60px; /* Adjust based on navbar height */
+      top: 60px;
       left: 0;
       width: 100%;
       background: rgba(0, 0, 0, 0.9);
@@ -79,23 +79,23 @@
   transition: color 0.3s ease, transform 0.3s ease, padding 0.3s ease;
 
   &:hover {
-    color: #f39c12; /* Change color on hover */
-    transform: translateY(-2px); /* Slightly raise on hover */
-    padding-bottom: 2px; /* Add underline effect on hover */
+    color: #f39c12;
+    transform: translateY(-2px); 
+    padding-bottom: 2px;
   }
 
   &.active {
-    color: #f39c12; /* Active link color */
+    color: #f39c12; 
     font-weight: bold;
-    border-bottom: 2px solid #f39c12; /* Underline for active link */
+    border-bottom: 2px solid #f39c12; 
   }
 `;Object(s.a)(u)`
-  font-size: 1.5rem; /* Larger font for Home button */
+  font-size: 1.5rem; 
   font-weight: 700;
-  margin-right: auto; /* Push Home button to the left */
+  margin-right: auto; 
 
   @media (max-width: 768px) {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    font-size: 1.2rem;
   }
 `;class g extends a.Component{render(){return n.a.createElement(h,null,n.a.createElement(f,null))}}const h=s.a.header`
     width:100%;
@@ -312,7 +312,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
     /* Adjust padding-top for mobile view */
     padding-bottom: 2em; /* Adjust padding-bottom if needed */
   }
-`,A=s.a.div`
+`,R=s.a.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -328,7 +328,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   @media (min-width: 768px) {
     
   }
-`,R=s.a.h1`
+`,A=s.a.h1`
   color: ${c.colors.green};
   font-family: "SF Mono", monospace;
   font-size: 1.5rem;
@@ -388,7 +388,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   @media (min-width: 768px) {
     font-size: 1.2rem;
   }
-`,H=Object(s.a)(M)`
+`,J=Object(s.a)(M)`
   margin-top: 2em;
   background-color: ${c.colors.green};
   color: ${c.colors.white};
@@ -402,13 +402,13 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
     background-color: ${c.colors.darkGreen};
     transform: scale(1.05);
   }
-`;class J extends a.Component{render(){return n.a.createElement(N,{id:"home"},n.a.createElement(A,null,n.a.createElement(R,null,"Hi, my name is"),n.a.createElement(P,null,"Ketan Goyal ",n.a.createElement(j,{symbol:"\ud83d\udc4b",label:"sheep"})),n.a.createElement(Y,null,"Your friendly Software Developer."),n.a.createElement(D,null,"Software Developer with expertise in creating high-performance applications that enhance user experience and business outcomes. Adept at collaborating within teams to innovate and drive strategic goals. Focused on developing software that enhances user experience, optimizes processes, and contributes to business success."),n.a.createElement(H,null,"Contact Me")),n.a.createElement("style",null,"\n  @keyframes fadeInUp {\n    from {\n      opacity: 0;\n      transform: translateY(20px);\n    }\n    to {\n      opacity: 1;\n      transform: translateY(0);\n    }\n  }\n"))}}var G=o(36),W=o.n(G);function T(){return n.a.createElement(U,null,n.a.createElement(q,null,n.a.createElement(K,null,n.a.createElement(O,null,n.a.createElement(B,{id:"about"},"About Me")),n.a.createElement(Q,null,n.a.createElement(V,null,"I'm a Software Developer with expertise in creating high-performance applications that enhance user experience and business outcomes. Adept at collaborating within teams to innovate and drive strategic goals. Focused on developing software that enhances user experience, optimizes processes, and contributes to business success."),n.a.createElement(X,null,"Whether it's a simple brochure website, an e-commerce platform, or a complex web application, I have the skills and expertise to bring your vision to life. I am always striving to improve my skills and stay up-to-date with the latest advancements in web development to deliver the best possible results for my clients."),n.a.createElement("p",null," Here are some technologies I've been working with recently:"),n.a.createElement(Z,null,n.a.createElement(_,null,"Javascript"),n.a.createElement(_,null,"PHP"),n.a.createElement(_,null,"ReactJs"),n.a.createElement(_,null,"MySql")))),n.a.createElement(ee,null,n.a.createElement(te,{src:W.a,alt:"Profile"}))))}const U=s.a.section`
+`;class G extends a.Component{render(){return n.a.createElement(N,{id:"home"},n.a.createElement(R,null,n.a.createElement(A,null,"Hi, my name is"),n.a.createElement(P,null,"Ketan Goyal ",n.a.createElement(j,{symbol:"\ud83d\udc4b",label:"sheep"})),n.a.createElement(Y,null,"Your friendly Software Developer."),n.a.createElement(D,null,"Software Developer with expertise in creating high-performance applications that enhance user experience and business outcomes. Adept at collaborating within teams to innovate and drive strategic goals. Focused on developing software that enhances user experience, optimizes processes, and contributes to business success."),n.a.createElement(J,null,"Contact Me")),n.a.createElement("style",null,"\n  @keyframes fadeInUp {\n    from {\n      opacity: 0;\n      transform: translateY(20px);\n    }\n    to {\n      opacity: 1;\n      transform: translateY(0);\n    }\n  }\n"))}}var W=o(36),H=o.n(W);function T(){return n.a.createElement(q,null,n.a.createElement(O,null,n.a.createElement(K,null,n.a.createElement(U,null,n.a.createElement(B,{id:"about"},"About Me")),n.a.createElement(Q,null,n.a.createElement(V,null,"I'm a Software Developer with expertise in creating high-performance applications that enhance user experience and business outcomes. Adept at collaborating within teams to innovate and drive strategic goals. Focused on developing software that enhances user experience, optimizes processes, and contributes to business success."),n.a.createElement(X,null,"Whether it's a simple brochure website, an e-commerce platform, or a complex web application, I have the skills and expertise to bring your vision to life. I am always striving to improve my skills and stay up-to-date with the latest advancements in web development to deliver the best possible results for my clients."),n.a.createElement("p",null," Here are some technologies I've been working with recently:"),n.a.createElement(Z,null,n.a.createElement(_,null,"Javascript"),n.a.createElement(_,null,"PHP"),n.a.createElement(_,null,"ReactJs"),n.a.createElement(_,null,"MySql")))),n.a.createElement(ee,null,n.a.createElement(te,{src:H.a,alt:"Profile"}))))}const q=s.a.section`
   background-color: ${c.colors.navy};
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-`,q=s.a.div`
+`,O=s.a.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -419,7 +419,7 @@ animation-name: wave-animation;  /* Refers to the name of your @keyframes elemen
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`,O=s.a.div`
+`,U=s.a.div`
   margin-bottom: 1.5em;
 `,B=s.a.h3`
   font-family: "Calibre";
@@ -914,7 +914,7 @@ white-space: nowrap;
   flex-direction: column;
   width: 100%;
   animation: ${Me} 3.5s ease-in-out;
-`,Ae=s.a.input`
+`,Re=s.a.input`
   padding: 1rem;
   margin-bottom: 1.5em;
   border-radius: 5px;
@@ -922,13 +922,13 @@ white-space: nowrap;
   font-size: ${c.fontSizes.md};
   font-family: "Calibre";
   background-color: ${c.colors.lightNavy};
-  color: ${c.colors.lightestSlate};
+  color: ${c.colors.white};
 
   &:focus {
     border-color: ${c.colors.green};
     outline: none;
   }
-`,Re=s.a.textarea`
+`,Ae=s.a.textarea`
   padding: 1rem;
   margin-bottom: 1.5em;
   border-radius: 5px;
@@ -936,7 +936,7 @@ white-space: nowrap;
   font-size: ${c.fontSizes.md};
   font-family: "Calibre";
   background-color: ${c.colors.lightNavy};
-  color: ${c.colors.lightestSlate};
+  color: ${c.colors.white};
   height: 150px;
 
   &:focus {
@@ -962,18 +962,18 @@ white-space: nowrap;
     color: ${c.colors.navy};
     transform: scale(1.05);
   }
-`;class Ye extends a.Component{constructor(){super(...arguments),this.handleSubmit=e=>{e.preventDefault();const t=e.target.elements.name.value,o=e.target.elements.email.value,a=`mailto:goyalketan2002@gmail.com?subject=Message from ${t}&body=${e.target.elements.message.value}%0D%0A%0D%0AFrom,%0D%0A${t}%0D%0A${o}`;window.location.href=a}}render(){return n.a.createElement(Fe,{id:"contact"},n.a.createElement(Ie,null,n.a.createElement(je,null,"Get in touch"),n.a.createElement(Le,null,"Feel free to reach out to me at any time. My inbox is always open, and I'm eager to hear from you. If you have a question or simply want to say hello, I'll do my best to respond promptly."),n.a.createElement(Ne,{onSubmit:this.handleSubmit},n.a.createElement(Ae,{type:"text",name:"name",placeholder:"Your Name",required:!0}),n.a.createElement(Ae,{type:"email",name:"email",placeholder:"Your Email",required:!0}),n.a.createElement(Re,{name:"message",placeholder:"Your Message",required:!0}),n.a.createElement(Pe,{type:"submit"},"Send Message"))))}}const De=s.a.div`
+`;class Ye extends a.Component{constructor(){super(...arguments),this.handleSubmit=e=>{e.preventDefault();const t=e.target.elements.name.value,o=e.target.elements.email.value,a=`mailto:goyalketan2002@gmail.com?subject=Message from ${t}&body=${e.target.elements.message.value}%0D%0A%0D%0AFrom,%0D%0A${t}%0D%0A${o}`;window.location.href=a}}render(){return n.a.createElement(Fe,{id:"contact"},n.a.createElement(Ie,null,n.a.createElement(je,null,"Get in touch"),n.a.createElement(Le,null,"Feel free to reach out to me at any time. My inbox is always open, and I'm eager to hear from you. If you have a question or simply want to say hello, I'll do my best to respond promptly."),n.a.createElement(Ne,{onSubmit:this.handleSubmit},n.a.createElement(Re,{type:"text",name:"name",placeholder:"Your Name",required:!0}),n.a.createElement(Re,{type:"email",name:"email",placeholder:"Your Email",required:!0}),n.a.createElement(Ae,{name:"message",placeholder:"Your Message",required:!0}),n.a.createElement(Pe,{type:"submit"},"Send Message"))))}}const De=s.a.div`
 grid-area:main;
-`,He=s.a.div`
+`,Je=s.a.div`
  display:grid;
 
  grid-template-columns:1fr;
  /* It'll do for now. See what feedback is needed for this. */ 
  
-`;class Je extends a.Component{render(){return n.a.createElement(De,null,n.a.createElement(He,null,n.a.createElement(J,null),n.a.createElement(T,null),n.a.createElement(Ce,null),n.a.createElement(Ye,null)))}}var Ge=o(11),We=o(39),Te=o.n(We),Ue=o(40),qe=o.n(Ue),Oe=o(41),Be=o.n(Oe),Ke=o(42),Qe=o.n(Ke),Ve=o(43),Xe=o.n(Ve),Ze=o(44),_e=o.n(Ze),et=o(45),tt=o.n(et),ot=o(46),at=o.n(ot),nt=o(47),it=o.n(nt),rt=o(48),lt=o.n(rt),st=o(49),ct=o.n(st),mt=o(50),dt=o.n(mt),ft=o(51),pt=o.n(ft),ut=o(52),gt=o.n(ut),ht=o(53),xt=o.n(ht),bt=o(54),wt=o.n(bt),yt=o(55),vt=o.n(yt),Et=o(56),$t=o.n(Et),kt=o(57),St=o.n(kt),zt=o(58),Ct=o.n(zt),Mt=o(59),Ft=o.n(Mt),It=o(60),jt=o.n(It),Lt=o(61),Nt=o.n(Lt),At=o(62),Rt=o.n(At),Pt=o(63),Yt=o.n(Pt),Dt=o(64),Ht=o.n(Dt),Jt=o(65),Gt=o.n(Jt),Wt=o(66),Tt=o.n(Wt),Ut=o(67),qt=o.n(Ut),Ot=o(68),Bt=o.n(Ot),Kt=o(69),Qt=o.n(Kt),Vt=o(70),Xt=o.n(Vt),Zt=o(71),_t=o.n(Zt),eo=o(72),to=o.n(eo),oo=o(73),ao=o.n(oo),no=o(74),io=o.n(no),ro=o(75),lo=o.n(ro),so=o(76),co=o.n(so),mo=o(77),fo=o.n(mo),po=o(78),uo=o.n(po),go=o(79),ho=o.n(go),xo=o(80),bo=o.n(xo),wo=Ge.createGlobalStyle`
+`;class Ge extends a.Component{render(){return n.a.createElement(De,null,n.a.createElement(Je,null,n.a.createElement(G,null),n.a.createElement(T,null),n.a.createElement(Ce,null),n.a.createElement(Ye,null)))}}var We=o(11),He=o(39),Te=o.n(He),qe=o(40),Oe=o.n(qe),Ue=o(41),Be=o.n(Ue),Ke=o(42),Qe=o.n(Ke),Ve=o(43),Xe=o.n(Ve),Ze=o(44),_e=o.n(Ze),et=o(45),tt=o.n(et),ot=o(46),at=o.n(ot),nt=o(47),it=o.n(nt),rt=o(48),lt=o.n(rt),st=o(49),ct=o.n(st),mt=o(50),dt=o.n(mt),ft=o(51),pt=o.n(ft),ut=o(52),gt=o.n(ut),ht=o(53),xt=o.n(ht),bt=o(54),wt=o.n(bt),yt=o(55),vt=o.n(yt),Et=o(56),$t=o.n(Et),kt=o(57),St=o.n(kt),zt=o(58),Ct=o.n(zt),Mt=o(59),Ft=o.n(Mt),It=o(60),jt=o.n(It),Lt=o(61),Nt=o.n(Lt),Rt=o(62),At=o.n(Rt),Pt=o(63),Yt=o.n(Pt),Dt=o(64),Jt=o.n(Dt),Gt=o(65),Wt=o.n(Gt),Ht=o(66),Tt=o.n(Ht),qt=o(67),Ot=o.n(qt),Ut=o(68),Bt=o.n(Ut),Kt=o(69),Qt=o.n(Kt),Vt=o(70),Xt=o.n(Vt),Zt=o(71),_t=o.n(Zt),eo=o(72),to=o.n(eo),oo=o(73),ao=o.n(oo),no=o(74),io=o.n(no),ro=o(75),lo=o.n(ro),so=o(76),co=o.n(so),mo=o(77),fo=o.n(mo),po=o(78),uo=o.n(po),go=o(79),ho=o.n(go),xo=o(80),bo=o.n(xo),wo=We.createGlobalStyle`
   @font-face {
     font-family: 'Calibre';
-    src: url(${Be.a}) format('woff2'), url(${qe.a}) format('woff'),
+    src: url(${Be.a}) format('woff2'), url(${Oe.a}) format('woff'),
       url(${Te.a}) format('truetype');
     font-weight: 300;
     font-style: normal;
@@ -1025,7 +1025,7 @@ grid-area:main;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${Rt.a}) format('woff2'),
+    src: url(${At.a}) format('woff2'),
       url(${Nt.a}) format('woff'),
       url(${jt.a}) format('truetype');
     font-weight: 600;
@@ -1033,7 +1033,7 @@ grid-area:main;
   }
   @font-face {
     font-family: 'SF Mono';
-    src: url(${Gt.a}) format('woff2'), url(${Ht.a}) format('woff'),
+    src: url(${Wt.a}) format('woff2'), url(${Jt.a}) format('woff'),
       url(${Yt.a}) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -1041,7 +1041,7 @@ grid-area:main;
   @font-face {
     font-family: 'SF Mono';
     src: url(${Bt.a}) format('woff2'),
-      url(${qt.a}) format('woff'),
+      url(${Ot.a}) format('woff'),
       url(${Tt.a}) format('truetype');
     font-weight: normal;
     font-style: italic;
@@ -1076,7 +1076,7 @@ grid-area:main;
     font-weight: 600;
     font-style: italic;
   }
-`;var yo=Ge.createGlobalStyle`
+`;var yo=We.createGlobalStyle`
 
 
 html
@@ -1116,7 +1116,7 @@ html {
   box-sizing: inherit;
   border-color:inherit;
 }
-`;var vo=function(){return n.a.createElement(Eo,null,n.a.createElement(wo,null),n.a.createElement(yo,null),n.a.createElement(g,null),n.a.createElement(b,null),n.a.createElement(Je,null),n.a.createElement(z,null),n.a.createElement(S,null))};const Eo=s.a.div`
+`;var vo=function(){return n.a.createElement(Eo,null,n.a.createElement(wo,null),n.a.createElement(yo,null),n.a.createElement(g,null),n.a.createElement(b,null),n.a.createElement(Ge,null),n.a.createElement(z,null),n.a.createElement(S,null))};const Eo=s.a.div`
  block-size: min(100vh);
  display:grid;
 
@@ -1137,4 +1137,4 @@ html {
   }
 
 `;r.a.render(n.a.createElement(n.a.StrictMode,null,n.a.createElement(l.Normalize,null),n.a.createElement(vo,null)),document.getElementById("root"))}]),[[81,1,2]]]);
-//# sourceMappingURL=main.7798a286.chunk.js.map
+//# sourceMappingURL=main.4e7ed7eb.chunk.js.map
